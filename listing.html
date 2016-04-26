@@ -1,5 +1,5 @@
 <div class="logo">
-    <img src="img/logo-allegro-tech.svg"/>
+    <img src="http://allegro.tech/img/allegro-tech.svg"/>
 </div>
 
 {% if page.thank_you %}
@@ -74,12 +74,25 @@ function rndArr(){
  return arr.sort(function(a,b){return Math.random()-a/10});
 }
 
-setInterval(function(){
-  rndArr().forEach(function(item,i){
-    imgs[i].src='img/jobs/'+item+'.png';
+// setInterval(function(){
+//   rndArr().forEach(function(item,i){
+//     imgs[i].src='img/jobs/'+item+'.png';
 
-  })
+//   })
+// }, 5000)
+
+
+
+setInterval(function(){
+    var arr = rndArr();
+    imgs[0].src = 'img/jobs/'+ arr[0] +'.png';
+    imgs[1].src = 'img/jobs/'+ arr[1] +'.png';
 }, 5000)
+
+
 })()
+
+
+
 
 </script>
