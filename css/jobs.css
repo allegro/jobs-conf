@@ -174,12 +174,12 @@ dd {
 	flex: 1 1 30%;
 	min-width: 200px
 }
-.job-add-offer li:after {
+.job-add-offer li:before {
 	content: '✔';
 	display: inline-block;
 	font-size: 24px;
 	color: #ff5825;
-	margin-left: 15px
+	margin-right: 10px
 }
 .job-added {
 	width: 90%;
