@@ -87,12 +87,12 @@ function rndArr(){
  return arr.sort(function(a,b){return Math.random()-a/10});
 }
 
-// setInterval(function(){
-//   rndArr().forEach(function(item,i){
-//     imgs[i].src='img/jobs/'+item+'.png';
+setInterval(function(){
+rndArr().forEach(function(item,i){
+imgs[i].src='img/jobs/'+item+'.png';
 
-//   })
-// }, 5000)
+})
+}, 5000)
 
 
 
