@@ -160,10 +160,10 @@ dd {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-/* 	display: -webkit-flex;
+	display: -webkit-flex;
 	-webkit-flex-wrap: wrap;
 	display: flex;
-	flex-wrap: wrap; */
+	flex-wrap: wrap; 
 }
 .job-add-offer li {
 	position: relative;
